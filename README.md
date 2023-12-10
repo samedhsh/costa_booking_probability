@@ -8,9 +8,10 @@ The documentation of the project is explained briefly in **documentation.docx**.
 
 **model_rfc.ipynb** is the notebook that processes the data and trains a **RandomForestClassifier** to predict the booking probability. The final model with class_weight is saved as **model_rfc.pkl**. The goal of training and optimization was to detect the customers who wanted to book as much as possible. It causes the algorithm to predict more class zero as class one wrongly.
 
-**prediction.csv** is the predicted output with two columns: ID and predicted_booking. The total number of predicted class one should be more than the reality as it is explained in the model training goal.
 
 **Prediction:**
+
+**prediction.csv** is the predicted output with two columns: ID and predicted_booking. The total number of predicted class one should be more than the reality as it is explained in the model training goal.
 
 **Home_Page.py** is for testing the 10% of rows with null booking using a **Streamlit** app to upload the input dataset and get the predictions.
 
