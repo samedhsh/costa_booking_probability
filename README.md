@@ -8,3 +8,4 @@ model_rfc.ipynb is the notebook which processes the data and trains a RandomFore
 
 Prediction:
 Home_Page.py is for testing the 10% of rows with null booking using a streamlit app to upload the input dataset and get the predictions.
+![st_1](https://github.com/samedhsh/costa_booking_probability/assets/80158302/ee4e94ff-a9d2-4f75-81e3-a0d88fb5eb57)
