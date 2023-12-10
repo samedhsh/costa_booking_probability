@@ -1,6 +1,6 @@
 # costa_booking_probability
 
-the documentation of the project is explained briefly in **documentation.docx**.
+The documentation of the project is explained briefly in **documentation.docx**.
 
 **Data Preprocessing and Model Training:**
 
