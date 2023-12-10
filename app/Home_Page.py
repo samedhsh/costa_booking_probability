@@ -97,7 +97,7 @@ def perform_predictions(df):
     encoder = OneHotEncoder(handle_unknown='ignore')
     encoder.fit(df[categorical_columns])
     encoded_df = encoder.transform(df[categorical_columns]).toarray()
-    encoded_df = pd.DataFrame(encoded_df, columns=encoder.get_feature_names(categorical_columns))
+    encoded_df = pd.DataFrame(encoded_df, columns=encoder.get_feature_names_out(categorical_columns))
 
     scaler = MinMaxScaler(feature_range=(0,1))
 
