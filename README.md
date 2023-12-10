@@ -16,7 +16,7 @@ The documentation of the project is explained briefly in **documentation.docx**.
 
 ![st_1](https://github.com/samedhsh/costa_booking_probability/assets/80158302/ee4e94ff-a9d2-4f75-81e3-a0d88fb5eb57)
 
-after uploading data, by clicking on the Show DataFrame box, the input dataset will be shown. 
+after uploading data, by clicking on the Show DataFrame box, the input dataset will be displayed. 
 
 ![st_2](https://github.com/samedhsh/costa_booking_probability/assets/80158302/23311706-41ec-4c42-827c-5329b7cc02eb)
 
