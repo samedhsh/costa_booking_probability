@@ -6,7 +6,7 @@ The documentation of the project is explained briefly in **documentation.docx**.
 
 **dataset.csv** is the input file furnished by Costa. 10% of rows that contain null in the booking column are dropped and the other rows are used for train and test. **testset.csv** contains all 10000 rows with unknown target column.
 
-**model_rfc.ipynb** is the notebook that processes the data and trains a **RandomForestClassifier** to predict the booking probability. The final model with class_weight is saved as model_rfc.pkl. The goal of training and optimization was to detect the customers who wanted to book as much as possible. It causes the algorithm to predict more class zero as class one wrongly.
+**model_rfc.ipynb** is the notebook that processes the data and trains a **RandomForestClassifier** to predict the booking probability. The final model with class_weight is saved as **model_rfc.pkl**. The goal of training and optimization was to detect the customers who wanted to book as much as possible. It causes the algorithm to predict more class zero as class one wrongly.
 
 **prediction.csv** is the predicted output with two columns: ID and predicted_booking. The total number of predicted class one should be more than the reality as it is explained in the model training goal.
 
