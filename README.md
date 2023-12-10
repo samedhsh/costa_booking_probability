@@ -1,5 +1,7 @@
 # costa_booking_probability
 
+the documentation of the project is explained briefly in **documentation.docx**.
+
 **Data Preprocessing and Model Training:**
 
 **dataset.csv** is the input file furnished by Costa. 10% of rows that contain null in the booking column are dropped and the other rows are used for train and test. **testset.csv** contains all 10000 rows with unknown target column.
