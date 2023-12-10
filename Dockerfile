@@ -1,9 +1,9 @@
 FROM python:3.8-slim
 
-WORKDIR /app
+WORKDIR /
 
 # Copy app folder into container
-COPY app /app
+COPY app /
 
 # Install Python requirements
 RUN pip install --no-cache-dir -r requirements.txt
