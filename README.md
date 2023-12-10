@@ -28,9 +28,13 @@ Finally, by clicking on the Perform Prediction button, the statistics of the inp
 There are two ways to run the prediction after cloning the git repo:
 
 1- navigating in the **CMD** to the app/ directory and run the Home_Page.py with the following command:
-            **>>>  python -m streamlit run Home_Page.py**
 
-2- Running the **Dockerfile** locally to build the Docker image and run it.
+                        **>>>  python -m streamlit run Home_Page.py**
+
+2- Running the **Dockerfile** locally to build the Docker image and run it as follows:
+
+                        **$ docker build -t image_name -f Dockerfile . **
+                       ** $ docker run image_name**
 
 
 
