@@ -118,7 +118,7 @@ def perform_predictions(df):
     y_pred_serie = pd.Series(y_pred)
 
     df_output = pd.concat([ids_to_predict, y_pred_serie], axis=1)
-    df_output = df_output.rename(columns={ 0: 'Predicted_booking_probability'}) 
+    df_output = df_output.rename(columns={ 0: 'Predicted_booking'}) 
     
     return df_output
 
@@ -136,7 +136,7 @@ if uploaded_file is not None:
         if st.button('Perform Prediction'):
             # Perform operations or analysis on the DataFrame here
             st.write("Summary Statistics:")
-            st.write(df.describe())
+            st.write(df.drop(columns=["booking", "ID"], axis=1).describe())
 
             df_output = perform_predictions(df=df)
             st.write("Output Dataset:")
