@@ -1,13 +1,13 @@
-FROM python:3.8-slim
+FROM python:3.10
 
-WORKDIR /
+WORKDIR /app
 
 # Copy app folder into container
-COPY app /
+COPY app /app
 
 # Install Python requirements
 RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8501
 
-CMD ["python", "-m", "streamlit", "run", "HomePage.py"]
+CMD ["python", "-m", "streamlit", "run", "Home_Page.py"]
