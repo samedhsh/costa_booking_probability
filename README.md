@@ -2,6 +2,8 @@
 
 The documentation of the project is explained briefly in **documentation.docx**.
 
+**prediction.csv** is the predicted output with two columns: ID and predicted_booking. The total number of predicted class one should be more than the reality as it is explained in the model training goal.
+
 **Data Preprocessing and Model Training:**
 
 **dataset.csv** is the input file furnished by Costa. 10% of rows that contain null in the booking column are dropped and the other rows are used for train and test. **testset.csv** contains all 10000 rows with unknown target column.
@@ -11,8 +13,6 @@ The documentation of the project is explained briefly in **documentation.docx**.
 
 
 **Prediction:**
-
-**prediction.csv** is the predicted output with two columns: ID and predicted_booking. The total number of predicted class one should be more than the reality as it is explained in the model training goal.
 
 **Home_Page.py** is for testing the 10% of rows with null booking using a **Streamlit** app to upload the input dataset and get the predictions.
 
